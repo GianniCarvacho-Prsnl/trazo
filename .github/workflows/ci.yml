@@ -1,0 +1,32 @@
+name: macOS build and tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  macos:
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Check Swift toolchain
+        run: swift --version
+      - name: Test capture and annotation core
+        run: bash scripts/test.sh
+      - name: Build application
+        run: bash scripts/build-app.sh
+      - name: Verify release packaging
+        run: bash scripts/package-release.sh --skip-build

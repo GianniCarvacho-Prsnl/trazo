@@ -1,0 +1,11 @@
+.local/
+.DS_Store
+.build/
+build/
+DerivedData/
+.env
+.env.*
+!.env.example
+.codex/config.toml
+/backlog-local/
+.swiftpm/
