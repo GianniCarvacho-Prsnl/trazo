@@ -2,6 +2,14 @@
 
 Aplicación independiente de captura y anotación para **macOS 14 o posterior**. Primera versión local: selecciona una región, añade marcas y copia o guarda el resultado. Trazo es el nombre de trabajo del proyecto.
 
+## Demo
+
+Selecciona un área, añade tus anotaciones y guarda el resultado. Esta demostración de 14 segundos utiliza la imagen de prueba incluida en el editor.
+
+https://github.com/user-attachments/assets/0ad0aecc-3a38-4728-bfa3-bf68dbfe4ccc
+
+[Descargar video en MP4](docs/media/trazo-demo.mp4) · [Montaje editable con HyperFrames](docs/video/README.md)
+
 ## Funciones
 
 - Selección rectangular ajustable, con dimensiones en píxeles.

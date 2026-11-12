@@ -1,0 +1,10 @@
+{
+  "name": "trazo-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "npx --yes hyperframes@0.9.36 preview --background",
+    "check": "npx --yes hyperframes@0.9.36 check --json",
+    "render": "npx --yes hyperframes@0.9.36 render --quality delivery --output ../media/trazo-demo.mp4"
+  }
+}
