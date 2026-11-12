@@ -6,7 +6,7 @@ Aplicación independiente de captura y anotación para **macOS 14 o posterior**.
 
 Selecciona un área, añade tus anotaciones y guarda el resultado. Esta demostración de 14 segundos utiliza la imagen de prueba incluida en el editor.
 
-https://github.com/user-attachments/assets/0ad0aecc-3a38-4728-bfa3-bf68dbfe4ccc
+https://github.com/user-attachments/assets/3334487e-a7f3-45ef-a352-12271614372d
 
 [Descargar video en MP4](docs/media/trazo-demo.mp4) · [Montaje editable con HyperFrames](docs/video/README.md)
 
